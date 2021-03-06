@@ -1,0 +1,119 @@
+#rowForm {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#lableA {
+    display: flex;
+    letter-spacing: 2px;
+    background: transparent url('img/Phone.svg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+#FormTitle {
+    position: relative;
+    top: 20px;
+    width: 128px;
+    height: 25px;
+    color: var(--unnamed-color-f3cd20);
+    text-align: center;
+    font: normal normal bold 18px/15px Poppins;
+    letter-spacing: 0px;
+    color: #F3CD20;
+    text-transform: capitalize;
+    opacity: 1;
+}
+
+#InputName {
+    width: 181px;
+    height: 45px;
+    margin-left: 35px;
+    margin-top: 40px;
+    background: none;
+    color: white;
+    border: 2px solid #FFFFFF;
+    border-radius: 25px;
+    opacity: 1;
+}
+
+#InputEmail {
+    top: 4739px;
+    left: 1276px;
+    width: 181px;
+    height: 45px;
+    margin-top: 40px;
+    background: none;
+    color: white;
+    border: 2px solid #FFFFFF;
+    border-radius: 25px;
+    opacity: 1;
+}
+
+#rowDescribe {
+    display: flex;
+    justify-content: center;
+}
+
+#InputDescribe {
+    width: 100%;
+    height: 250px;
+    margin-left: 30px;
+    margin-right: 30px;
+    background: transparent linear-gradient(161deg, var(--unnamed-color-50636e) 0%, var(--unnamed-color-052130) 100%) 0% 0% no-repeat padding-box;
+    background: transparent linear-gradient(161deg, #50636E 0%, #052130 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #17445B1C;
+    background: none;
+    color: white;
+    border: 2px solid #FFFFFF;
+    border-radius: 23px;
+    opacity: 1;
+}
+
+#rowCloDescribe {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#ButtonForm {
+    /* width: 136px;
+    height: 25px;
+    text-align: center;
+    
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+    top: 5002px;
+    left: 1262px; */
+    width: 195px;
+    height: 45px;
+    text-align: center;
+    font: normal normal bold 15px/0px Poppins;
+    background: var(--unnamed-color-186994) 0% 0% no-repeat padding-box;
+    background: #186994 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #17445B12;
+    border-radius: 23px;
+    border: none;
+    opacity: 1;
+}
+
+#FormGroup {
+    background: transparent linear-gradient(161deg, var(--unnamed-color-50636e) 0%, var(--unnamed-color-052130) 100%) 0% 0% no-repeat padding-box;
+    background: transparent linear-gradient(161deg, #50636E 0%, #052130 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #17445B1C;
+    border-radius: 23px;
+    opacity: 1;
+}
+
+#Call {
+    display: flex;
+    justify-content: first baseline;
+}
+
+.Image {
+    display: inline;
+    justify-self: end;
+    vertical-align: middle;
+    width: 60px;
+    height: 70px;
+}
